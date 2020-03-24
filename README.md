@@ -1,1 +1,1 @@
-![FrontEnd](https://github.com/Remonhasan/QMS/images/qms-frontend.jpeg)
+![FrontEnd](https://github.com/Remonhasan/QMS/images/qms-frontend.jpg)
