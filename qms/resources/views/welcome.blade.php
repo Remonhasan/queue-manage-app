@@ -19,39 +19,33 @@
 <div class="loader-section section-left"></div>
 <div class="loader-section section-right"></div>
 </div>
+@include('layouts.partial.msg')
+</br>
 <div id=login-page class=row>
 <div class="col s12 z-depth-4 card-panel">
-<form class=login-form action=https://jltoken.justlabtech.com/login method=post onsubmit="return load()">
-<input type=hidden name=_token value=Zfe3aqSwPTFASyXCJNLFS0dsv9Tl5MKFcNCukyeF>
+<form class=login-form method="post" action="{{route('queue.reserve')}}">
+	@csrf
 <div class=row>
 <div class="input-field col s12 center">
-<p class="center login-form-text" style="font-size:23px;margin-top:5px">Q M S</p>
+<p class="center login-form-text" style="font-size:23px;margin-top:5px"><b>Q M S</b></p>
 <p class="center login-form-text" style=letter-spacing:1px>Take Service</p>
 </div>
 </div>
 <div class="row margin">
 <div class="input-field col s12">
 <i class="mdi-action-account-box prefix"></i>
-<input id=username type=text name=customername placeholder=customername value="" autofocus>
+<input id=username type=text name=name placeholder=customername value="" autofocus>
 <label for=username class=active>Customer Name</label>
 </div>
 </div>
-<div class=row>
-<div class="input-field col s12">
-<i class="mdi-action-label prefix"></i>
-<input id=password type=password name=servicename placeholder=servicename>
-<label for=password>Service Name</label>
-</div>
-</div>
-<div class=row>
-<div class="input-field col s12">
-<i class="mdi-action-accessibility prefix"></i>
-<input id=password type=password name=counternumber placeholder=counternumber>
-<label for=password>Counter</label>
-</div>
-</div>
 
-
+<div class="row margin">
+<div class="input-field col s12">
+<i class="mdi-action-assignment prefix"></i>
+<input id=username type=text name=service placeholder=servicename value="" autofocus>
+<label for=username class=active>Service Name</label>
+</div>
+</div>
 <div class=row>
 <div class="input-field col s12">
 <button type=submit class="btn waves-effect waves-light col s12">Submit</button>
@@ -60,7 +54,7 @@
 </form>
 </div>
 <div class="row center-align white-text" style=margin-bottom:0>
-<span>Developed by <a href="http://www.justlabtech.com/" target=_blank style="color:#ccc">Jamil | Remon</a></span>
+<span>Developed by <a href="http://www.justlabtech.com/" target=_blank style="color:#ccc">Remon Hasan</a></span>
 </div>
 </div>
 <script src="{{asset('frontend/assets/js/plugins/jquery-1.11.2.min.js.pagespeed.jm.J-8M9bCq0j.js')}}"></script>

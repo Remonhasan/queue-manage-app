@@ -5,8 +5,8 @@
             &copy;
             <script>
               document.write(new Date().getFullYear())
-            </script>, Developed <i class="material-icons">favorite</i> by
-            <a href="https://www.creative-tim.com" target="_blank">Jamil | Remon</a> 
+            </script>,<i class="material-icons"></i>
+            <a href="https://www.creative-tim.com" target="_blank">Remon Hasan</a> 
           </div>
         </div>
       </footer>

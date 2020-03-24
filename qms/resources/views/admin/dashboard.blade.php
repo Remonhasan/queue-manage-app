@@ -16,10 +16,10 @@
               <div class="card card-stats">
                 <div class="card-header card-header-warning card-header-icon">
                   <div class="card-icon">
-                    <i class="material-icons">content_copy</i>
+                    <i class="material-icons">calendar_today</i>
                   </div>
                   <p class="card-category">Service</p>
-                  <h3 class="card-title">
+                  <h3 class="card-title">03
                     
                   </h3>
                 </div>
@@ -35,10 +35,10 @@
               <div class="card card-stats">
                 <div class="card-header card-header-success card-header-icon">
                   <div class="card-icon">
-                    <i class="material-icons">slideshow</i>
+                    <i class="material-icons">accessibility</i>
                   </div>
                   <p class="card-category">Customer Count</p>
-                  <h3 class="card-title"></h3>
+                  <h3 class="card-title">05</h3>
                 </div>
                 <div class="card-footer">
                   <div class="stats">
@@ -51,10 +51,10 @@
               <div class="card card-stats">
                 <div class="card-header card-header-danger card-header-icon">
                   <div class="card-icon">
-                    <i class="material-icons">info_outline</i>
+                    <i class="material-icons">accessible_forward</i>
                   </div>
                   <p class="card-category">Queue</p>
-                  <h3 class="card-title"></h3>
+                  <h3 class="card-title">02</h3>
                 </div>
                 <div class="card-footer">
                   <div class="stats">

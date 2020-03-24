@@ -13,42 +13,18 @@
               <p>Dashboard</p>
             </a>
           </li>
-          <li class="{{Request::is('admin/slider*') ? 'active': ''}}">
-            <a class="nav-link" href="">
-              <i class="material-icons">slideshow</i>
+          <li class="{{Request::is('admin/queue*') ? 'active': ''}}">
+            <a class="nav-link" href="{{route('queue.index')}}">
+              <i class="material-icons">accessible</i>
               <p>Queues</p>
             </a>
           </li>
-           <li class="{{Request::is('admin/category*') ? 'active': ''}}">
+           <li class="">
             <a class="nav-link" href="">
-              <i class="material-icons">content_paste</i>
-              <p>Counter A</p>
+              <i class="material-icons">build</i>
+              <p>Settings</p>
             </a>
           </li>
-          <li class="{{Request::is('admin/item*') ? 'active': ''}}">
-            <a class="nav-link" href="">
-              <i class="material-icons">library_books</i>
-              <p>Counter B</p>
-            </a>
-          </li>
-           <li class="{{Request::is('admin/reservation*') ? 'active': ''}}">
-            <a class="nav-link" href="">
-              <i class="material-icons">chrome_reader_mode</i>
-              <p>Counter C</p>
-            </a>
-          </li>
-          <li class="{{Request::is('admin/contact*') ? 'active': ''}}">
-            <a class="nav-link" href="">
-              <i class="material-icons">message</i>
-              <p>Queue Requests</p>
-            </a>
-          </li>
-          <li class="{{Request::is('admin/cupon*') ? 'active': ''}}">
-            <a class="nav-link" href="">
-              <i class="material-icons">library_books</i>
-              <p>Services</p>
-            </a>
-          </li>
-        </ul>
+      </ul>
       </div>
     </div>
