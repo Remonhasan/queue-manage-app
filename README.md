@@ -5,6 +5,7 @@
 |This project based on Queues problems in Bangladesh.The major problem faced by the banks, offices, hospitals, or in any organization are the long queues of customers at the peak hours and then at the off peak hours the lack of customer entry.This module and system will be applicable for all of institutions/orgranizations that are managing queue. By this system any institutions will able manage queue digitally. That can minimize the waiting time.This branch contains the containzerized versions of the projects.|
 
 | :pill: Dashboard |
+|:--------------------|
 ![Dashboard](https://github.com/Remonhasan/QMS/blob/master/qms-dashboard.png)
 
 <p align="center">
