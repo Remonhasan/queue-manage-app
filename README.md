@@ -8,6 +8,14 @@
 |:--------------------|
 ![Dashboard](https://github.com/Remonhasan/QMS/blob/master/qms-dashboard.png)
 
+| :pill: Queues |
+|:--------------------|
+![Queues](https://github.com/Remonhasan/QMS/blob/master/qms-queue.png)
+
+| :pill: Calling by Queues |
+|:--------------------|
+![Queues](https://github.com/Remonhasan/QMS/blob/master/qms-queue.png)
+
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
